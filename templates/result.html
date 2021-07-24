@@ -1,0 +1,155 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+<div class="wizard-v6-content">
+	<div class="wizard-form">
+		<div class="form-row">
+			<div class="form-holder ">
+                {% with messages = get_flashed_messages() %}
+                    {% if messages %}
+                    {% for message in messages %}
+                    <div>					
+                        <div class=" text-center">{{message}}</div> <br />
+                    </div>
+                    {% endfor %}
+                    {% endif %}
+                {% endwith %}				
+			</div>			
+		</div>
+		
+		<form class="form-register" action="/file" method="POST" enctype="multipart/form-data" id="form-register">
+			<div id="form-total" role="application" class="wizard-form clearfix">
+				<div class="steps clearfix">
+					<ul role="tablist">
+						<li role="tab" class="current" aria-disabled="false" aria-selected="true">
+							<a id="form-total-t-0" href="/" aria-controls="form-total-p-0">
+								<span class="current-info audible"> </span><div class="title">
+									<p class="step-icon"><span>1</span></p>
+									<span class="step-text">Información</span>
+								</div>
+							</a>
+						</li>
+						<li role="tab" class="current" aria-disabled="true">
+							<a id="form-total-t-1" href="/file" aria-controls="form-total-p-1">
+								<div class="title">
+									<p class="step-icon"><span>2</span></p>
+									<span class="step-text">Captura De Imagen</span>
+								</div>
+							</a>
+						</li>
+						<li role="tab"  class="current" aria-disabled="true">
+							<a id="form-total-t-2" href="/questions" aria-controls="form-total-p-2">
+								<div class="title">
+									<p class="step-icon"><span>3</span></p>
+									<span class="step-text">Cuestionario</span>
+								</div>
+							</a>
+						</li>
+						<li role="tab" class="current" aria-disabled="true">
+							<a id="form-total-t-2" href="#form-total-h-2" aria-controls="form-total-p-2">
+								<div class="title">
+									<p class="step-icon"><span>4</span></p>
+									<span class="step-text">Resultado</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="content clearfix">
+					<!-- SECTION 2 -->				
+					<section>
+						<div class="inner">
+							<div class="form-heading">
+								<h3>Resultado de {{nombre}} {{apellido}}</h3>
+								<span>4/4</span>
+							</div>						
+                            <div class="form-row">
+                                <div class="form-holder" style="width: 350px;">
+                                    <div class="form-images">
+                                        <img hidden width="300" height="300" id="imagenTest" src='data:image/png;base64,{{img}}' />
+                                        <canvas width="600" height="600" id="idCanvas"></canvas>
+                                    </div>
+                                </div>
+                                <div class="table-responsive text-center">
+                                    <table class="table">											
+                                        <tbody>
+                                            <tr class="space-row" >
+                                                <td style="color:gray">Teacheable Machine</td>
+                                                <td style="padding-left:70px; color:gray ">TensorFlow</td>	
+                                                <td style="padding-left:115px; color:gray">M-Chat</td>										
+                                            </tr>
+                                            <tr class="space-row">
+                                                <td><label id="tea" style="color:#55e8d5; font-size: 15px;">Procesando...</label> </td>
+                                                <td id="tea1" hidden style="padding-left:190px; font-size: 15px;"><label  style="color:#55e8d5"></label>Tea: {{tea}} </td>
+                                                <td id="riesgo"  hidden style="padding-left:160px; font-size: 15px;"><label  style="color:#55e8d5"></label>{{riesgo.Resultado}} </td>
+                                            </tr>
+                                            <tr class="space-row">
+                                                <td> <label id="notea" style="color:#55e8d5; font-size: 15px;"></label></td>
+                                                <td id="sintea1" hidden style="padding-left:165px; font-size: 15px;"><label  hidden style="color:#55e8d5"></label>SinTea: {{noTea}} </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <table class="table">											
+                                        <tbody>                                            
+                                            <tr class="space-row">
+                                                <td><label id="descripcion" hidden style="color:white; font-size: 14px;">{{riesgo.descripcion}}</label> </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+							<div class="form-row" style="padding-bottom:50px;">
+
+							</div>
+						</div>
+					</section>
+				</div>
+
+			</div>
+		</form>
+	</div>
+</div>
+
+<script src="/static/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+    const URL = "https://teachablemachine.withgoogle.com/models/5O0q09n5c/";
+   let model, webcam, labelContainer, maxPredictions, bandera;
+   let tea = document.getElementById('tea')
+   let notea = document.getElementById('notea')
+   let sintea1 = document.getElementById('sintea1');
+   let tea1 = document.getElementById('tea1');
+   let descripcion = document.getElementById('descripcion');
+   let riesgo = document.getElementById('riesgo');
+
+   $(document).ready(function () {
+        init();
+   })
+
+   async function cargarModelo() {
+       const modelURL = URL + "model.json";
+       const metadataURL = URL + "metadata.json";       
+       model = await tmImage.load(modelURL, metadataURL);			
+   }
+
+   async function init() {
+       await cargarModelo();
+       const imagenTest = document.getElementById('imagenTest');
+       const canvas = document.getElementById('idCanvas');
+       const context = canvas.getContext('2d');
+       context.drawImage(imagenTest, 0,0,300,300)                   
+       maxPredictions = model.getTotalClasses();
+       const prediction = await model.predict(imagenTest);
+       tea.innerText = prediction[0].className + ": " + prediction[0].probability.toFixed(2);
+       notea.innerText = prediction[1].className + ": " + prediction[1].probability.toFixed(2);
+       sintea1.hidden = false;
+       tea1.hidden = false;
+       descripcion.hidden = false;
+       riesgo.hidden=false;
+   }
+
+</script>
+
+
+{% endblock %}

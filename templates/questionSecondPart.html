@@ -1,0 +1,93 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+
+<div class="wizard-v6-content">
+	<div class="wizard-form">
+		<form class="form-register" id="form-register" action="/questions_second_part" method="post">
+			<div id="form-total" role="application" class="wizard-form clearfix">
+				<div class="steps clearfix">
+					<ul role="tablist">
+						<li role="tab" class="current" aria-disabled="false" aria-selected="true">
+							<a id="form-total-t-0" href="/" aria-controls="form-total-p-0">
+								<span class="current-info audible"> </span><div class="title">
+									<p class="step-icon"><span>1</span></p>
+									<span class="step-text">Información</span>
+								</div>
+							</a>
+						</li>
+						<li role="tab" class="current" aria-disabled="true">
+							<a id="form-total-t-1" href="/file" aria-controls="form-total-p-1">
+								<div class="title">
+									<p class="step-icon"><span>2</span></p>
+									<span class="step-text">Captura De Imagen</span>
+								</div>
+							</a>
+						</li>
+						<li role="tab" class="current" aria-disabled="true">
+							<a id="form-total-t-2" href="#form-total-h-2" aria-controls="form-total-p-2">
+								<div class="title">
+									<p class="step-icon"><span>3</span></p>
+									<span class="step-text">Cuestionario</span>
+								</div>
+							</a>
+						</li>
+						<li role="tab" class="disabled last" aria-disabled="true">
+							<a id="form-total-t-2" href="#form-total-h-2" aria-controls="form-total-p-2">
+								<div class="title">
+									<p class="step-icon"><span>4</span></p>
+									<span class="step-text">Resultado</span>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+                <div class="content clearfix">
+                    <section>
+                        <div class="inner">
+                            <div class="form-heading">
+                                <h3>Cuestionario</h3>
+                                <span>3/4</span>
+                            </div>
+                            {% for pregunta in list_preguntas %}
+                            <div class="form-row">
+                                <div class="form-holder form-holder-2">
+                                    <label for="time" class="special-label-1" style="color: peachpuff; font-size: 18px;" >{{pregunta.id}}) {{pregunta.descripcion}} </label>
+                                   <p style="color: white; font-size: 14px;">{{pregunta.descripcionSubPregunta}}</p>
+                                </div>
+                            </div>
+                            
+                            {% for subpregunta in pregunta.subpreguntas %}
+                                <div class="form-row">
+                                    <div class="form-holder form-holder-2">
+                                        <label for="time" class="special-label-1" >{{subpregunta.id}}) {{subpregunta.descripcion}} </label>
+                                        <select name={{subpregunta.id}} id="time" class="form-control">
+                                            {% for opcion in subpregunta.opciones %}
+                                            <option value={{opcion.valor}}>{{opcion.text}}</option>
+                                            {% endfor %}
+                                        </select>
+                                        <span class="select-btn">
+                                            <i class="zmdi zmdi-chevron-down"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                            
+                            {% endfor %}
+                        </div>
+                    </section>
+                </div>
+            
+                <div class="form-holder ">
+                    <div class="actions clearfix">
+                        <button style="color:white; border-radius:10px; border: none; height: 45px; width: 150px; background: #43ccba; cursor: pointer; font-size: 16px;  font-weight: 600;" type="submit" role="menuitem">Aceptar</button>
+                    </div>
+                </div>
+			</div>
+		</form>
+	</div>
+</div>
+
+
+{% endblock %}

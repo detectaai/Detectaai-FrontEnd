@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "riesgo": 1,
+        "descripcion": "Puntuación total entre 0‐2. Si el niño es menor de 24 meses, repetir MCHAT‐R a los 24m. Ninguna otra medida necesaria a menos que la vigilancia del desarrollo indique riesgo de TEA",
+        "Resultado": "RIESGO BAJO"
+    },
+    {
+        "id": 2,
+        "riesgo": 2,
+        "descripcion": "Puntuación total entre 3‐7. Administrar la entrevista de seguimiento (segunda etapa=M‐ CHAT‐R/F) para obtener información adicional acerca de las respuestas de riesgo.Si la puntuación M‐ CHAT‐R/F se mantiene en 2 o superior, el niño ha resultado positivo. Medida necesaria: remita al niño para una evaluación diagnóstica y para determinar necesidad de atención temprana. Si la puntuación es 0‐1, el niño ha resultado negativo. Ninguna otra medida es necesaria a menos que la vigilancia del desarrollo indique riesgo de TEA. El niño debe seguir vigilado en futuras visitas del programa del niño sano.",
+        "Resultado": "RIESGO MEDIO"
+    },
+    {
+        "id": 3,
+        "riesgo": 3,
+        "descripcion": "Puntuación total entre 8‐20. Es aceptable prescindir de la entrevista de seguimiento y se debe remitir el caso de inmediato para evaluación diagnóstica y para determinar necesidad de intervención temprana.",
+        "Resultado": "RIESGO ALTO"
+    },
+    {
+        "id": 4,
+        "riesgo": 4,
+        "descripcion": "Se recomienda encarecidamente que el niño sea remitido a intervención temprana para realizar pruebas de diagnóstico tan pronto como sea posible ",
+        "Resultado": "RIESGO ALTO"
+    },
+    {
+        "id": 5,
+        "riesgo": 5,
+        "descripcion": "La evaluación pasa, sin embargo, se recomienda trabajarlo con un especialista.",
+        "Resultado": "RIESGO BAJO"
+    }
+]

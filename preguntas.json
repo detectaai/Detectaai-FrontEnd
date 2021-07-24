@@ -1,0 +1,1188 @@
+
+[
+    {
+        "id":1,
+        "descripcion": "Si usted señala  algo al otro lado de la habitación, ¿su hijo/a lo mira? (POR EJEMPLO, Si usted señala a un juguete, un peluche o un animal, ¿su hijo/a lo mira?)",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true ,
+        "descripcionSubPregunta": "¿Qué hace su hijo/a normalmentecuando usted señala a algo?",
+        "subpreguntas": [
+            {
+                "id":"1.1",
+                "descripcion": "¿Mira el objeto?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"1.2",
+                "descripcion": "¿Señala al objeto?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"1.3",
+                "descripcion": "¿Mira y dice algo sobre el objeto?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"1.4",
+                "descripcion": "¿Mira y dice algo sobre el objeto?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"1.5",
+                "descripcion": "¿Ignora al padre?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"1.6",
+                "descripcion": "¿Mira alrededor de la habitación ?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"1.7",
+                "descripcion": "¿Mira al dedo del padre?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ]     
+    },
+    {
+        "id":2,
+        "descripcion": "¿Alguna vez se ha preguntado si su hijo/a es sordo/a?",
+        "opciones": [
+            {"valor": "1", "text": "SÍ"},
+            {"valor": "0", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿Usted ha dicho que se han preguntado si su hijo es sordo ¿Qué le llevó a preguntarme eso? ",
+        "subpreguntas": [
+            {
+                "id":"2.1",
+                "descripcion": "¿A menudo ignora los sonidos?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"2.2",
+                "descripcion": "¿A menudo ignora a la gente?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ]     
+    },
+    {
+        "id":3,
+        "descripcion": "¿Su hijo/a juega juegos de fantasía o imaginación? (POR EJEMPLO, “hace como que” bebe de una taza vacía, habla por teléfono o da de comer a una muñeca o peluche,…)",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿El/ella hace juegos de imaginación o de fantasía? ",
+        "subpreguntas": [
+            {
+                "id":"3.1",
+                "descripcion": "¿Finge beber de una taza de juguete?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"3.2",
+                "descripcion": "¿Finge comer con una cuchara o tenedor de juguete?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"3.3",
+                "descripcion": "¿Finge hablar por teléfono?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"3.4",
+                "descripcion": "¿Finge dar de comer a un muñeco con comida de juguete o de verdad?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"3.5",
+                "descripcion": "¿Empuja un coche haciendo como que va por una carretera imaginaria?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"3.6",
+                "descripcion": "¿Finge ser un robot, un avión, una bailarina, o cualquier otro personaje favorito? ",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"3.7",
+                "descripcion": "¿Pone una olla de juguete en una cocina de mentira?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"3.8",
+                "descripcion": "¿Revuelve comida imaginaria?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"3.9",
+                "descripcion": "¿Pone una figura de acción o muñeca en un coche o camión de juguete como si fuese el conductor o el pasajero?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"3.10",
+                "descripcion": "¿Finge pasar la aspiradora a la alfombra, barrer, o cortar el césped?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ]   
+    },
+    {
+        "id":4,
+        "descripcion": "¿A su hijo le gusta subirse a cosas? (POR EJEMPLO, a una silla, escaleras, o tobogán,…)",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿A el/ella le gusta subirse a las cosas (como una silla, tobogán,…)?",
+        "subpreguntas": [
+            {
+                "id":"4.1",
+                "descripcion": "¿Le gusta subirse a escaleras?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"4.2",
+                "descripcion": "¿Le gusta subirse a sillas?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"4.3",
+                "descripcion": "¿Le gusta subirse a muebles?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"4.4",
+                "descripcion": "¿Le gusta subirse a toboganes?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":5,
+        "descripcion": "¿Hace su hijo/a movimientos inusuales con sus dedos cerca de sus ojos? (POR EJEMPLO, mueve sus dedos cerca de sus ojos de manera inusual?)",
+        "opciones": [
+            {"valor": "1", "text": "SÍ"},
+            {"valor": "0", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿El/ella hace movimientos inusuales con sus dedos cerca de sus ojos?",
+        "subpreguntas": [
+            {
+                "id":"5.1",
+                "descripcion": "¿Se mira las manos?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"5.2",
+                "descripcion": "¿Mueve sus dedos cuando juega al cucú?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"5.3",
+                "descripcion": "¿Mueve sus dedos cerca de sus ojos?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"5.4",
+                "descripcion": "¿Pone las manos arriba, cerca de sus ojos?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"5.5",
+                "descripcion": "¿Pone las manos a los lados de su cabeza?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"5.6",
+                "descripcion": "¿Aletea sus manos cerca de su cara?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"5.7",
+                "descripcion": "¿Esto pasa más de dos veces por semana?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":6,
+        "descripcion": "¿Su hijo/a señala con un dedo cuando quiere pedir algo o pedir ayuda? (POR EJEMPLO, señala un juguete o algo de comer que está fuera de su alcance?)",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "Si su hijo/a quiere algo que no puede alcanzar, por ejemplo una galleta de un armario que está alto, ¿cómo lo alcanza?",
+        "subpreguntas": [
+            {
+                "id":"6.1",
+                "descripcion": "¿Extiende la mano abierta hacia el objeto?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"6.2",
+                "descripcion": "¿Lo guía a usted hacia el objeto?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"6.3",
+                "descripcion": "¿Trata de alcanzar el objeto él /ella mismo?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"6.4",
+                "descripcion": "¿Pide el objeto con palabras o sonidos?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"6.5",
+                "descripcion": "¿Si usted pidiera que se lo muestre, su hijo/a señalaría al objeto?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":7,
+        "descripcion": "Su hijo/a señala con un dedo cuando quiere mostrarle algo que le llama la atención? (POR EJEMPLO, señala un avión en el cielo o un camión  muy grande en la calle) ",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿Alguna vez su hijo/a le quiere mostrar a usted algo interesante como por ejemplo",
+        "subpreguntas": [
+            {
+                "id":"7.1",
+                "descripcion": "...un avión en el cielo?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"7.2",
+                "descripcion": "...un camion en la calle?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"7.3",
+                "descripcion": "...un insecto en el suelo?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"7.4",
+                "descripcion": "...un animal en el patio?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"7.5",
+                "descripcion": "¿Cómo llama su hijo/a su atención hacia eso que le interesa? ¿Usa su dedo índice para señalar?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"7.6",
+                "descripcion": "¿Señala con un dedo para mostar su interés hacia algo, no para lograr ayuda?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":8,
+        "descripcion": "¿Su hijo/a se interesa en otros niños? (POR EJEMPLO, mira con atención a otros niños, les sonríe o se les acerca?)",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿El/ella muestra interés por otros niños?",
+        "subpreguntas": [
+            {
+                "id":"8.1",
+                "descripcion": "¿Se interesa por otros niños aparte de sus hermanos?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"8.2",
+                "descripcion": "¿Cuando usted está en el parque infantil o en el supermercado, su hijo/a responde a otros niños si se le acercan?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"8.3",
+                "descripcion": "¿Juega con el otro niño?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"8.4",
+                "descripcion": "¿Habla al otro niño?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"8.5",
+                "descripcion": "¿Vocaliza/emite sonidos?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"8.6",
+                "descripcion": "¿Mira al otro niño?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"8.7",
+                "descripcion": "¿Sonríe al otro niño?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"8.8",
+                "descripcion": "¿Actúa tímidamente al principio y luego sonríe?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"8.9",
+                "descripcion": "¿Se entusiasma con el otro niño?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"8.10",
+                "descripcion": "¿Su hijo/a responde a otros niños más de la mitad de las ocasiones?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":9,
+        "descripcion": "¿Su hijo/a le muestra cosas acercándolas o levantándolas para que usted las vea – no para pedir ayuda sino solamente para compartirlas con usted? (POR EJEMPLO, le muestra una flor o un peluche o un coche de juguete)",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿Su hijo/a le trae a usted a veces…",
+        "subpreguntas": [
+            {
+                "id":"9.1",
+                "descripcion": "Una foto o un juguete solo para mostrárselo?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"9.2",
+                "descripcion": "Un dibujo que ha hecho?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"9.3",
+                "descripcion": "Una flor que ha recogido?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"9.4",
+                "descripcion": "Un insecto que ha encontrado entre la hierba?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"9.5",
+                "descripcion": "Una torre de bloques que ha apilado?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"9.6",
+                "descripcion": "¿Le trae objetos solo para mostrárselos, no para pedir ayuda?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":10,
+        "descripcion": "¿Su hijo/a responde cuando usted le llama por su nombre?  (POR EJEMPLO, se vuelve, habla o balbucea, o deja de hacer lo que estaba haciendo para mirarle?)",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿El/ella responde cuando usted le llama por su nombre?",
+        "subpreguntas": [
+            {
+                "id":"10.1",
+                "descripcion": "¿Levanta la vista?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"10.2",
+                "descripcion": "¿Habla o balbucea?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"10.3",
+                "descripcion": "¿Deja lo que estaba haciendo?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"10.4",
+                "descripcion": "¿No responde?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"10.5",
+                "descripcion": "¿Parece oír pero ignora al adulto?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"10.6",
+                "descripcion": "¿Responde solo si el adulto está cara a cara con el/la niño/a?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"10.7",
+                "descripcion": "¿Responde sólo si se le toca?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":11,
+        "descripcion": "¿Cuándo usted sonríe a su hijo/a, él o ella también le sonríe?",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "Cuando usted sonríe a él/ella, ¿él/ ella también le sonríe a usted?",
+        "subpreguntas": [
+            {
+                "id":"11.1",
+                "descripcion": "¿Sonríe cuando usted sonríe?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"11.2",
+                "descripcion": "¿Sonríe cuando usted entra a la habitación?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"11.3",
+                "descripcion": "¿Sonríe cuando usted regresa?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"11.4",
+                "descripcion": "¿Siempre está sonriendo?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"11.5",
+                "descripcion": "¿Sonríe cuando juega con su juguete preferido?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"11.6",
+                "descripcion": "¿Sonríe al azar o a nada en particular?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":12,
+        "descripcion": "¿Le molestan a su hijo/a ruidos cotidianos? (POR EJEMPLO, la aspiradora o la música, incluso cuando está no está excesivamente alta?)",
+        "opciones": [
+            {"valor": "1", "text": "SÍ"},
+            {"valor": "0", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿Su hijo reacciona de manera negativa al sonido de...?",
+        "subpreguntas": [
+            {
+                "id":"12.1",
+                "descripcion": "¿la lavadora?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"12.2",
+                "descripcion": "¿otros bebés llorando?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"12.3",
+                "descripcion": "¿la aspiradora?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"12.4",
+                "descripcion": "¿el secador de pelo?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"12.5",
+                "descripcion": "¿tráfico?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"12.6",
+                "descripcion": "¿otros bebés chillando o gritando?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"12.7",
+                "descripcion": "¿música muy alta?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"12.8",
+                "descripcion": "¿el teléfono/ el timbre de la puerta?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"12.9",
+                "descripcion": "¿lugares ruidosos como un supermercado o un restaurante?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"12.10",
+                "descripcion": "¿Se cubre los oídos con calma?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"12.11",
+                "descripcion": "Le dice a usted que le molesta el ruido ?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"12.12",
+                "descripcion": "¿Grita?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"12.13",
+                "descripcion": "¿Llora?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"12.14",
+                "descripcion": "¿Se cubre los oídos y se altera?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":13,
+        "descripcion": "¿Su hijo/a camina solo? ",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿Él/ella camina?",
+        "subpreguntas": [
+            {
+                "id":"13.1",
+                "descripcion": "¿Su hijo/a camina sin necesidad de agarrarse a algo?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":14,
+        "descripcion": "¿Su hijo/a le mira a los ojos cuando usted le habla, juega con él o ella, o lo viste? ",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿Su hijo/a le mira a los ojos cuando….",
+        "subpreguntas": [
+            {
+                "id":"14.1",
+                "descripcion": "Necesita algo?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"14.2",
+                "descripcion": "Juega con usted?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"14.3",
+                "descripcion": "Cuando come?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"14.4",
+                "descripcion": "Le cambia el pañal?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"14.5",
+                "descripcion": "Usted le lee un cuento?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"14.6",
+                "descripcion": "Cuando usted le habla?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"14.7",
+                "descripcion": "¿Le mira a los ojos todos los días?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"14.8",
+                "descripcion": "¿Cuando pasan juntos todo el día, su hijo/a le mira a los ojos por lo menos 5 veces?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":15,
+        "descripcion": "¿Su hijo/a imita  sus movimientos? (POR EJEMPLO, decir adiós con la mano, aplaudir o algún ruido  gracioso que usted haga?)",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿Su hijo/a lo imita si usted...",
+        "subpreguntas": [
+            {
+                "id":"15.1",
+                "descripcion": "saca la lengua?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"15.2",
+                "descripcion": "hace un sonido gracioso?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"15.3",
+                "descripcion": "dice adiós con la mano?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"15.4",
+                "descripcion": "aplaude?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"15.5",
+                "descripcion": "acerca su dedo a sus labios para indicar “shhh” (silencio)?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"15.6",
+                "descripcion": "tira un beso?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":16,
+        "descripcion": "Si usted se gira a ver algo, ¿su hijo/a trata de mirar hacia  lo que usted está mirando?",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿Su hijo/a…",
+        "subpreguntas": [
+            {
+                "id":"16.1",
+                "descripcion": "Mira al objeto que usted está mirando?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"16.2",
+                "descripcion": "Señala al objeto?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"16.3",
+                "descripcion": "Mira alrededor hasta ver lo que usted está  mirando?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"16.4",
+                "descripcion": "Lo ignora a usted?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"16.5",
+                "descripcion": "Mira su cara?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":17,
+        "descripcion": "¿Su hijo/a intenta que usted le mire/preste atención? (POR EJEMPLO, busca que usted le haga un cumplido, o  le dice “mira” ó “mírame”)",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿Su hijo/a…",
+        "subpreguntas": [
+            {
+                "id":"17.1",
+                "descripcion": " Dice “mira” o “mírame”?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"17.2",
+                "descripcion": "Balbucea o hace ruido para que usted mire a lo que él/ella está haciendo?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"17.3",
+                "descripcion": "Lo mira esperando que usted lo felicite o comente?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"17.4",
+                "descripcion": "Le mira para ver si usted le está mirando?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":18,
+        "descripcion": "¿Su hijo/a le entiende cuando usted le dice que haga algo? (POR EJEMPLO, si usted no hace gestos, ¿su hijo/a entiende “pon el libro encima de  la silla” o “tráeme la manta”?)",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿Él/ella le entiende cuando usted le pide que haga algo?",
+        "subpreguntas": [
+            {
+                "id":"18.1",
+                "descripcion": " Si usted dice: 'Muéstrame tu zapato' sin señalar, hacer gestos o dar pistas (cuando no va a salir o a vestirle), ¿su hijo le muestra su zapato?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"18.2",
+                "descripcion": "Si usted dice: 'Tráeme la manta' o le pide otro objeto sin señalar, hacer gestos o dar pistas, ¿su hijo/a se lo trae?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"18.3",
+                "descripcion": "Si usted dice: 'Pon el libro sobre la silla' sin señalar, hacer gestos, o dar pistas, ¿su hijo/a pone el libro en la silla?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":19,
+        "descripcion": "Si algo nuevo pasa, ¿su hijo/a le mira  para ver como usted reacciona al respecto? (POR EJEMPLO, si oye un ruido extraño o ve un juguete nuevo, ¿se gira a ver su cara?)",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "Si algo nuevo pasa ¿ Él/ella mira su cara para comprobar como usted se siente al respecto?",
+        "subpreguntas": [
+            {
+                "id":"19.1",
+                "descripcion": " Si el niño oye un ruido extraño o que da miedo, ¿él / ella le miran antes de responder?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"19.2",
+                "descripcion": "¿Su hijo/a lo mira a usted cuando se acerca alguien a quien no conoce?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"19.3",
+                "descripcion": "¿Se vuelve hacia usted para mirarle cuando se enfrenta a algo desconocido o un poco atemorizante?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    },
+    {
+        "id":20,
+        "descripcion": "Le gustan a su hijo/a los juegos  de movimiento? (POR EJEMPLO, le gusta que le balancee, o que le haga  “el caballito” sentándole en sus rodillas) ",
+        "opciones": [
+            {"valor": "0", "text": "SÍ"},
+            {"valor": "1", "text": "NO"}
+        ],
+        "mostrar": true,
+        "descripcionSubPregunta": "¿Cuando usted le mece o le hace saltar, ¿cómo reacciona?",
+        "subpreguntas": [
+            {
+                "id":"20.1",
+                "descripcion": "¿Se ríe o sonríe?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"20.2",
+                "descripcion": "¿Habla o balbucea??",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"20.3",
+                "descripcion": "¿Extiende sus brazos para pedir más?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            },
+            {
+                "id":"20.4",
+                "descripcion": "¿Otro?",
+                "opciones": [
+                    {"valor": "1", "text": "SÍ"},
+                    {"valor": "0", "text": "NO"}
+                ]
+            }
+        ] 
+    }
+]
+
