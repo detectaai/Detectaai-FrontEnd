@@ -2,7 +2,7 @@ Proyecto Desarrollado en Flask
 
 Contiene las interfaces gráficas para subir imágenes y responder el cuestionario para detectar si el usuario tiene o no tendencias de TEA.
 
-para ejecutar el proyecto, primero en necesario clonar:
+para ejecutar el proyecto de forma local, primero en necesario clonar:
 
 ```
 git clone https://github.com/detectaai/Detectaai.git
