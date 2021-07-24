@@ -1,16 +1,12 @@
 Hola.
 
-1) Para poder ejecutar el programa necesitas instalar Flask y requests. utiliza los comandos:
+Este es un repositorio del grupo de estudio de Saturday AI.
+Está creado para almacenar todos los desarrollos para el Proyecto DETECTAAI
 
--)pip install Flask
--)pip install requests
--)python app.py
+El grupo estás conformado por: 
+- Andrea Mariana Escobar
+- Luis Chamba Eras
+- Marco Chiluiza
+- Paul Quezada
+- Danny Aguirre
 
-2) Hay una carpeta que se llama "flaskpython", eso es un entorno virutal.
-Si tienes instalado virtualenv, activas ese entorno virtual y solo instalas las dependencias con
-el comando:
-
--)pip install
--)python app.py
-
-3) En el caso de que no ejecutes con el entorno virtual, solo haces el paso 1. 
