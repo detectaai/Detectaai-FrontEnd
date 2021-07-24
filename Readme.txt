@@ -17,9 +17,9 @@ activate
 ```
 Regresar a la carpeta matriz del proyecto y ejecutar el comando 
 
-```
+´´´
 python app.py
-```
+´´´
 
 por último abrir el explorador en la ruta: http://localhost:3000
 
